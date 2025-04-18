@@ -1,0 +1,25 @@
+.usersList {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.userItem {
+    padding: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.userItem:last-child {
+    border-bottom: none;
+}
+
+.userItem:hover {
+    background-color: #f9fafb;
+}
+
+/* Сообщение, если нет пользователей */
+.noUsers {
+    color: #6b7280;
+}
